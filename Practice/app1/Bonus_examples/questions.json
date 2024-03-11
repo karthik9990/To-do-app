@@ -1,0 +1,46 @@
+[{"question_text": "What is the capital of Canada?",
+  "alternatives": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+  "correct_answer": 3},
+ {"question_text": "Who wrote the novel “To Kill a Mockingbird”?",
+  "alternatives": ["J.D. Salinger", "Harper Lee", "Mark Twain", "Ernest Hemingway"],
+  "correct_answer": 2},
+{
+        "question_text": "What is the chemical symbol for gold?",
+        "alternatives": ["Ag", "Au", "Ga", "Ge"],
+        "correct_answer": 1
+    },
+    {
+        "question_text": "In which year was the first man landed on the moon?",
+        "alternatives": ["1965", "1967", "1969", "1971"],
+        "correct_answer": 2
+    },
+    {
+        "question_text": "What is the largest planet in our solar system?",
+        "alternatives": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "correct_answer": 2
+    },
+    {
+        "question_text": "What is the square root of 81?",
+        "alternatives": ["7", "8", "9", "10"],
+        "correct_answer": 2
+    },
+    {
+        "question_text": "Who painted the Mona Lisa?",
+        "alternatives": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "correct_answer": 2
+    },
+    {
+        "question_text": "What is the capital of Australia?",
+        "alternatives": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "correct_answer": 2
+    },
+    {
+        "question_text": "What is the tallest mountain in the world?",
+        "alternatives": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+        "correct_answer": 1
+    },
+    {
+        "question_text": "What is the longest river in the world?",
+        "alternatives": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+        "correct_answer": 1
+    }]

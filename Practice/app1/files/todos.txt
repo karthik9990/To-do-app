@@ -1,0 +1,9 @@
+bug
+update 
+unit test
+release
+ring of git
+ring of file
+Jello
+pizza
+glass
