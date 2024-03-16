@@ -1,8 +1,4 @@
-bug
-update 
-unit test
-release
-ring of git
+bug fixedring of git
 ring of file
 Jello
 pizza
@@ -11,3 +7,6 @@ Hello
 jello
 Bello
 Jello Jello
+exit the application
+added bug
+bug fixed and released
