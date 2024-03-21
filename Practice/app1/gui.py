@@ -1,8 +1,14 @@
 import functions
 import PySimpleGUI as sg
 import time
+import os
+
+if not os.path.exists("files/todos.txt"):
+    with open("files/todos.txt", "w") as file:
+        pass
 
 sg.theme("LightGrey1")
+
 clock = sg.Text('', key='clock')
 label = sg.Text("Type in To-Do")
 input_box = sg.InputText(tooltip="Enter your Todo", key="todo")

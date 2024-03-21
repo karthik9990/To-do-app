@@ -1,5 +1,4 @@
-import PySimpleGUI as sg
-from convertors import convert
+
 
 """def prepare(text):
     text = text.title()
@@ -50,25 +49,3 @@ upper_bound = int(input("Enter Upper bound: "))
 rand = random.randint(lower_bound,upper_bound)
 print(rand)"""
 
-label1 = sg.Text("Enter feet:")
-input1 = sg.Input()
-
-label2 = sg.Text("Enter Inches:")
-input2 = sg.Input()
-
-button = sg.Button("Convert")
-output_label = sg.Text("", key="output", text_color="green")
-
-window = sg.Window("Convertor", [[label1, input1],
-                                 [label2, input2],
-                                 [button, output_label]])
-while True:
-    event, values = window.read()
-    feet = float(values["feet"])
-    inches = float(values["inches"])
-
-    result = convert(feet, inches)
-    window["output"].update(value=f"{result} m", text_color="white")
-
-
-window.close()
